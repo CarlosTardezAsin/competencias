@@ -49,26 +49,17 @@ La documentación de [typeORM](https://orkhan.gitbook.io/typeorm/docs)
 ## Installation
 
 ```bash
-#Instala las dependencias del proyecto (tener node instalado)
+# Instala las dependencias del proyecto (tener node instalado)
 npm i
+# Con pnpm (recomendado) 
+pnpm i
 # O si usas yarn:
 yarn install
 ```
 
-## Correr la aplicación:
+## Correr la aplicación
 
 Para lanzar la aplicación mientras se desarrolla:
-
-Si se tienen las CLI de angular y Nest:
-
-```bash
-# En la carpeta del Frontend
-ng serve
-# En la del backend
-nest start --watch
-```
-
-Si no se tienen estas CLI instalados
 
 ```bash
 # En la carpeta del Frontend
@@ -84,7 +75,7 @@ sudo npm i -g @nestjs/cli
 sudo npm i -g @angular/cli
 ```
 
-## Depurar la aplicación:
+## Depurar la aplicación
 
 Si se quiere depurar el backend hay que lanzar este en modo debug
 
@@ -117,8 +108,10 @@ Luego enlazar el debugger a este proceso, para vscode crear una configuración e
 
 [Bcrypt generator](https://bcrypthashgenerator.tool-kit.dev/) seleccionar prefijo 2b y rounds 10 para generar el hash de la contraseña
 
-[Json2TS](http://www.json2ts.com/) Web para generar interfaces de typescript a partir de un Json
+[Quicktype, JSON a struct/class/interface](https://app.quicktype.io/) Web para generar interfaces de typescript a partir de un Json (O structs de Rust/C++/C clases de Java...)
 
 [Angular material](https://material.angular.io/) Componentes ya hechos de angular
 
 [Libro resumen y tips Typescript](https://basarat.gitbook.io/typescript/)
+
+[Clases en javascript, herencia, prototype, types, overriding, diferencia entre private obj y #obj, etc...](https://medium.com/jspoint/typescript-classes-65b4712ac9c8)
